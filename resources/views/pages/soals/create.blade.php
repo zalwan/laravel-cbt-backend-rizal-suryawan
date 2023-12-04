@@ -46,19 +46,19 @@
                                 <label for="kategori">Kategori</label>
                                 <div class=" selectgroup  w-100">
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="roles" value="Numeric" class="selectgroup-input"
+                                        <input type="radio" name="kategori" value="Numeric" class="selectgroup-input"
                                             checked="">
                                         <span class="selectgroup-button">Numerik</span>
                                     </label>
 
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="roles" value="Verbal" class="selectgroup-input"
+                                        <input type="radio" name="kategori" value="Verbal" class="selectgroup-input"
                                             checked="">
                                         <span class="selectgroup-button">Verbal</span>
                                     </label>
 
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="roles" value="Logika" class="selectgroup-input"
+                                        <input type="radio" name="kategori" value="Logika" class="selectgroup-input"
                                             checked="">
                                         <span class="selectgroup-button">Logika</span>
                                     </label>
@@ -66,8 +66,8 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="jawaban">Jawaban A</label>
-                                <input id="jawaban" type="text"
+                                <label>Jawaban A</label>
+                                <input type="text"
                                     class="form-control 
                                 @error('jawaban_a')
                                 is-invalid
@@ -80,13 +80,13 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <label for="jawaban">Jawaban b</label>
-                                <input id="jawaban" type="text"
+                                <label>Jawaban b</label>
+                                <input type="text"
                                     class="form-control 
                                 @error('jawaban_b')
                                 is-invalid
                                 @enderror"
-                                    name="jawaban_a" />
+                                    name="jawaban_b" />
                                 @error('kategori')
                                     <div class="invalid-feedback">
                                         {{ $message }}
@@ -94,13 +94,13 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <label for="jawaban">Jawaban c</label>
-                                <input id="jawaban" type="text"
+                                <label>Jawaban c</label>
+                                <input type="text"
                                     class="form-control 
                                 @error('jawaban_c')
                                 is-invalid
                                 @enderror"
-                                    name="jawaban_a" />
+                                    name="jawaban_c" />
                                 @error('kategori')
                                     <div class="invalid-feedback">
                                         {{ $message }}
@@ -108,13 +108,13 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <label for="jawaban">Jawaban d</label>
-                                <input id="jawaban" type="text"
+                                <label>Jawaban d</label>
+                                <input type="text"
                                     class="form-control 
                                 @error('jawaban_d')
                                 is-invalid
                                 @enderror"
-                                    name="jawaban_a" />
+                                    name="jawaban_d" />
                                 @error('kategori')
                                     <div class="invalid-feedback">
                                         {{ $message }}
@@ -138,8 +138,8 @@
                                     </label>
 
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="kunci" value="c"
-                                            class="selectgroup-input" checked="">
+                                        <input type="radio" name="kunci" value="c" class="selectgroup-input"
+                                            checked="">
                                         <span class="selectgroup-button">C</span>
                                     </label>
 

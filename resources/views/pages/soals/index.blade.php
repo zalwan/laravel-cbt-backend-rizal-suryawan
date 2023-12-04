@@ -41,10 +41,10 @@
                                 </select>
                             </div>
                             <div class="float-right">
-                                <form method="GET" action="{{ route('user.index') }}">
+                                <form method="GET" action="{{ route('soal.index') }}">
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="Search"
-                                            name="name" />
+                                            name="pertanyaan" />
                                         <div class="input-group-append">
                                             <button class="btn btn-primary">
                                                 <i class="fas fa-search"></i>

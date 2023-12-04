@@ -28,7 +28,7 @@ class StoreSoalRequest extends FormRequest
             'jawaban_b' => 'required|max:255',
             'jawaban_c' => 'required|max:255',
             'jawaban_d' => 'required|max:255',
-            'kunci' => 'required|max:255',
+            'kunci' => 'required|in:a,b,c,d',
 
         ];
     }
