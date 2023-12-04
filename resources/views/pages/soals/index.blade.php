@@ -5,7 +5,7 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header">
-            <h1>Bank soal</h1>
+            <h1>Bank soal - Tugas 2 Rizal suryawan</h1>
             <div class="section-header-button">
                 <a href="{{ route('soal.create') }}" class="btn btn-primary">Add New</a>
             </div>
